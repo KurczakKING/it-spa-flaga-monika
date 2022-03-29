@@ -11,3 +11,6 @@ server.listen(port, (err) => {
   }
   console.log(`Serwer działa na porcie ${port}`);
 });
+
+let heading = document.querySelector("#demo")
+heading.innerHTML = "IWONA";
